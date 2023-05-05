@@ -1,0 +1,30 @@
+body {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+
+nav {
+    background-color: coral;
+    padding: 10px 10px;
+}
+
+main {
+    background-color: lightblue;
+    padding: 50px;
+}
+
+footer {
+    background-color: coral;
+    padding: 10px 10px;
+}
+
+img{
+   max-width: 150px;
+   border-radius: 1em;
+}
+.copyright{
+    display:grid;
+    place-items:center;
+}
