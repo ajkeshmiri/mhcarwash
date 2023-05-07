@@ -24,13 +24,15 @@ main {
 footer {
     background-color: coral;
     padding: 10px 10px;
-    display: grid;
-    grid-template-columns: minmax(200px, 80%) 1fr;
 }
 
 footer img {
     max-width: 150px;
     border-radius: 1em;
+}
+
+.bottomNavContainer {
+    justify-self: end;
 }
 
 .bottomNavContainer ul {
@@ -47,4 +49,15 @@ footer img {
 
 .bottomNavContainer a {
     text-decoration: none;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 80rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
