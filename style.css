@@ -44,7 +44,7 @@ a:visited {
 .topLogo {
     max-width: 150px;
     border-radius: 1em;
-    display: inline-block;
+    margin: -120px 20px;
 }
 
 main {
@@ -97,21 +97,12 @@ footer img {
 }
 
 .nav-wrapper {
-    padding: 25px;
-    border: 2px solid red;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
-}
-
-.nav-wrapper > * {
-    flex: 1;
-    height: fit-content;
-}
-
-.blah {
     position: sticky;
-    background: hotpink;
     top: 5px;
-    margin: 25px auto;
+    margin: 50px auto;
     display: inline-block;
+
 }
