@@ -1,12 +1,9 @@
 body {
-    min-height: 100dvh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
     margin: 0;
+    background: black;
 }
 
 nav {
-    background-color: coral;
     padding: 10px 10px;
     display: grid;
 }
@@ -17,12 +14,10 @@ nav img {
 }
 
 main {
-    background-color: lightblue;
     padding: 50px;
 }
 
 footer {
-    background-color: coral;
     padding: 10px 10px;
 }
 
@@ -53,11 +48,19 @@ footer img {
 
 .content-wrapper {
     width: 100%;
-    margin: auto;
-    max-width: 80rem;
 }
 
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.wrapper {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgb(24, 24, 27);
+    margin: auto;
+    max-width: 80rem;
+    color: rgb(229, 231, 235);
 }
