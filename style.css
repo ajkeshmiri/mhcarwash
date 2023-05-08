@@ -158,7 +158,6 @@ footer img {
     justify-content: space-evenly;
     text-align: center;
     padding-top: 100px;
-
 }
 
 #pricing ul {
@@ -168,7 +167,10 @@ footer img {
 
 #pricing li {
     padding: 5px;
-
+}
+#pricing span{
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 
 #pricing div {
@@ -178,3 +180,9 @@ footer img {
     min-width: 270px;
 }
 
+#pricing .regular{
+    margin-bottom: 200px;
+}
+#pricing .murphy{
+    margin-bottom: 100px;
+}
