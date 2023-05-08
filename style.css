@@ -118,7 +118,7 @@ footer img {
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
-    
+
 }
 
 #intro img {
@@ -135,7 +135,7 @@ footer img {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px;
-    
+
 }
 
 #intro div:nth-of-type(2) {
@@ -148,6 +148,7 @@ footer img {
     list-style-type: none;
     padding: 0;
 }
+
 #intro li {
     padding: 5px;
 }
@@ -157,23 +158,23 @@ footer img {
     justify-content: space-evenly;
     text-align: center;
     padding-top: 100px;
-    
+
 }
-#pricing ul{
+
+#pricing ul {
     list-style-type: none;
     padding-left: 0;
 }
-#pricing li{
+
+#pricing li {
     padding: 5px;
-   
-}
-#pricing div{
-    background-color: rgb(40, 40, 42);
-    border-radius: 2em;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px; 
-}
-.regular{
 
 }
+
+#pricing div {
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding: 50px 20px;
+    min-width: 270px;
+}
+
