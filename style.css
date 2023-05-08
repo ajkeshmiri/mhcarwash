@@ -118,6 +118,9 @@ footer img {
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding: 30px;
 
 }
 
@@ -132,10 +135,6 @@ footer img {
     display: grid;
     place-items: center;
     text-align: center;
-    background-color: rgb(40, 40, 42);
-    border-radius: 2em;
-    padding: 30px;
-
 }
 
 #intro div:nth-of-type(2) {
@@ -169,7 +168,7 @@ footer img {
     padding: 5px;
 }
 #pricing span{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -185,4 +184,8 @@ footer img {
 }
 #pricing .murphy{
     margin-bottom: 100px;
+}
+#pricing h3{
+    font-size: 1.75rem;
+    font-weight: bold;
 }
