@@ -73,16 +73,24 @@ footer img {
     display: grid;
     list-style-type: none;
     place-items: center;
-    padding: 5px;
+    padding: 0;
 }
 
 .bottomNavContainer a {
     text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 1em;
 }
 
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.bottomNavContainer ul a:hover {
+    background: rgb(229, 231, 235);
+    color: rgb(40, 40, 42);
+    transition-duration: 0.3s;
 }
 
 .wrapper {
@@ -109,17 +117,24 @@ footer img {
 #intro {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
+    
 }
 
 #intro img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: 2em;
 }
 
 #intro div:nth-of-type(1) {
     display: grid;
     place-items: center;
+    text-align: center;
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding: 30px;
     
 }
 
@@ -135,4 +150,30 @@ footer img {
 }
 #intro li {
     padding: 5px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#pricing ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#pricing li{
+    padding: 5px;
+   
+}
+#pricing div{
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.regular{
+
 }
