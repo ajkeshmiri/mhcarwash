@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: black;
+    background: rgb(35, 37, 39, 100%);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,6 +10,9 @@ nav {
     max-width: 400px;
     border-radius: 2em;
     border: rgb(229, 231, 235) 1px solid;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
@@ -45,14 +48,15 @@ a:visited {
 .topLogo {
     max-width: 150px;
     border-radius: 1em;
-    margin: -120px 20px;
+    margin: -75px 20px;
 }
 
 main {
     padding: 0px 50px;
     min-height: 2000px;
 }
-main h2{
+
+main h2 {
     padding-top: 50px;
 }
 
@@ -109,13 +113,10 @@ footer img {
 
 .nav-wrapper {
     padding: 0px;
-    display: flex;
-    justify-content: space-between;
     position: sticky;
     top: 5px;
-    margin: 50px auto;
+    margin: 25px auto;
     display: inline-block;
-
 }
 
 #intro {
