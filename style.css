@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background: rgb(35, 37, 39, 100%);
@@ -48,16 +52,11 @@ a:visited {
 .topLogo {
     max-width: 150px;
     border-radius: 1em;
-    margin: -75px 20px;
 }
 
 main {
     padding: 0px 50px;
     min-height: 2000px;
-}
-
-main h2 {
-    padding-top: 50px;
 }
 
 footer {
@@ -117,6 +116,11 @@ footer img {
     top: 5px;
     margin: 25px auto;
     display: inline-block;
+}
+
+#introSection, #pricingSection {
+    margin-bottom: 50px;
+    scroll-margin-top: 8em;
 }
 
 #intro {
@@ -190,4 +194,19 @@ footer img {
 #pricing h3{
     font-size: 1.75rem;
     font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background: #ECECEC;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #C5C5C5;
+    border-radius: 6px;
 }
