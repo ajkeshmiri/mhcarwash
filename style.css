@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background: rgb(35, 37, 39, 100%);
@@ -9,6 +13,7 @@ nav {
     padding: 5px 5px;
     max-width: 400px;
     border-radius: 2em;
+    border: rgb(229, 231, 235) 1px solid;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -47,11 +52,10 @@ a:visited {
 .topLogo {
     max-width: 150px;
     border-radius: 1em;
-    margin: -75px 20px;
 }
 
 main {
-    padding: 50px;
+    padding: 0px 50px;
     min-height: 2000px;
 }
 
@@ -76,17 +80,24 @@ footer img {
     display: grid;
     list-style-type: none;
     place-items: center;
-    list-style-type: none;
-    padding: 5px;
+    padding: 0;
 }
 
 .bottomNavContainer a {
     text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 1em;
 }
 
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.bottomNavContainer ul a:hover {
+    background: rgb(229, 231, 235);
+    color: rgb(40, 40, 42);
+    transition-duration: 0.3s;
 }
 
 .wrapper {
@@ -105,5 +116,97 @@ footer img {
     top: 5px;
     margin: 25px auto;
     display: inline-block;
+}
 
+#introSection, #pricingSection {
+    margin-bottom: 50px;
+    scroll-margin-top: 8em;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding: 30px;
+
+}
+
+#intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 2em;
+}
+
+#intro div:nth-of-type(1) {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+#intro div:nth-of-type(2) {
+    display: grid;
+    place-items: center;
+    max-width: 600px;
+}
+
+#intro ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#intro li {
+    padding: 5px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#pricing ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#pricing li {
+    padding: 5px;
+}
+#pricing span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#pricing div {
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding: 50px 20px;
+}
+
+#pricing .regular{
+    margin-bottom: 200px;
+}
+#pricing .murphy{
+    margin-bottom: 100px;
+}
+#pricing h3{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background: #ECECEC;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #C5C5C5;
+    border-radius: 6px;
 }
