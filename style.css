@@ -51,29 +51,6 @@ a:visited {
 
 .topLogo {
     max-width: 150px;
-    border-radius: 1em;
-}
-
-nav ul a:hover {
-    background: rgb(229, 231, 235);
-    color: rgb(40, 40, 42);
-    transition-duration: 0.3s;
-}
-
-a {
-    color: rgb(229, 231, 235);
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(229, 231, 235);
-    text-decoration: none;
-}
-
-.topLogo {
-    max-width: 150px;
-    border-radius: 1em;
-    margin: -120px 20px;
 }
 
 main {
@@ -81,7 +58,6 @@ main {
     min-height: 2000px;
 }
 main h2{
-    padding-top: 50px;
 }
 
 footer {
@@ -141,7 +117,7 @@ footer img {
     justify-content: space-between;
     position: sticky;
     top: 5px;
-    margin: 50px auto;
+    margin: 25px auto;
     display: inline-block;
 }
 
@@ -175,7 +151,7 @@ footer img {
 #introSection div:nth-of-type(2) {
     display: grid;
     place-items: center;
-    max-width: 600px;
+    max-width: 550px;
 }
 
 #introSection ul {
