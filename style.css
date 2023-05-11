@@ -192,8 +192,8 @@ footer img {
 }
 #addOn{
     display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
+    justify-content: space-evenly;
+    margin-top: 5%;
 }
 section{
     border: 3px solid rgb(229, 231, 235);
@@ -202,9 +202,13 @@ section{
     rotate: 45deg;
     display:grid;
     align-items: center;
-    
+    border-radius: 1em;
 }
+    
 section p{
     rotate: 315deg;
     text-align: center;
+    margin: 0;
+    font-size: 1rem;
+
 }
