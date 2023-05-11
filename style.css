@@ -207,7 +207,6 @@ footer img {
     margin-top: 5%;
 }
 section{
-    border: 3px solid rgb(229, 231, 235);
     height: 8rem;
     width: 8rem;
     rotate: 45deg;
@@ -215,7 +214,6 @@ section{
     align-items: center;
     border-radius: 1em;
     background-color: rgb(40, 40, 42);
-   
 }
     
 section p{
