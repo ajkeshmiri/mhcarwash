@@ -17,6 +17,7 @@ nav {
     min-height: 40px;
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 
 nav ul {
@@ -49,8 +50,8 @@ a:visited {
     text-decoration: none;
 }
 
-.topLogo {
-    max-width: 150px;
+.topLogo img{
+    border-radius: 2em;
 }
 
 main {
@@ -58,6 +59,7 @@ main {
     min-height: 2000px;
 }
 main h2{
+
 }
 
 footer {
@@ -119,6 +121,7 @@ footer img {
     top: 5px;
     margin: 25px auto;
     display: inline-block;
+    z-index: 2;
 }
 
 #introSection, #pricingSection {
@@ -211,16 +214,17 @@ section{
     display:grid;
     align-items: center;
     border-radius: 1em;
+    background-color: rgb(40, 40, 42);
+   
 }
     
 section p{
-    rotate: 315deg;
+    rotate: -45deg;
     text-align: center;
     margin: 0;
     font-size: 1rem;
 
 }
-
 
 ::-webkit-scrollbar {
     width: 10px;
