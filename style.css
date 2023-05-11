@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    background: black;
+    background: rgb(35, 37, 39, 100%);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,6 +14,9 @@ nav {
     max-width: 400px;
     border-radius: 2em;
     border: rgb(229, 231, 235) 1px solid;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
@@ -23,6 +30,27 @@ nav ul {
 
 nav ul a {
     padding: 8px 10px;
+    border-radius: 1em;
+}
+
+nav ul a:hover {
+    background: rgb(229, 231, 235);
+    color: rgb(40, 40, 42);
+    transition-duration: 0.3s;
+}
+
+a {
+    color: rgb(229, 231, 235);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(229, 231, 235);
+    text-decoration: none;
+}
+
+.topLogo {
+    max-width: 150px;
     border-radius: 1em;
 }
 
@@ -115,10 +143,14 @@ footer img {
     top: 5px;
     margin: 50px auto;
     display: inline-block;
-
 }
 
-#intro {
+#introSection, #pricingSection {
+    margin-bottom: 50px;
+    scroll-margin-top: 8em;
+}
+
+#introSection {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(40, 40, 42);
@@ -127,66 +159,66 @@ footer img {
 
 }
 
-#intro img {
+#introSection img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 2em;
 }
 
-#intro div:nth-of-type(1) {
+#introSection div:nth-of-type(1) {
     display: grid;
     place-items: center;
     text-align: center;
 }
 
-#intro div:nth-of-type(2) {
+#introSection div:nth-of-type(2) {
     display: grid;
     place-items: center;
     max-width: 600px;
 }
 
-#intro ul {
+#introSection ul {
     list-style-type: none;
     padding: 0;
 }
 
-#intro li {
+#introSection li {
     padding: 5px;
 }
 
-#pricing {
+#pricingSection {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 
-#pricing ul {
+#pricingSection ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-#pricing li {
+#pricingSection li {
     padding: 5px;
 }
-#pricing span{
+#pricingSection span{
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-#pricing div {
+#pricingSection div {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 50px 20px;
 }
 
-#pricing .regular{
+#pricingSection .regular{
     margin-bottom: 200px;
 }
-#pricing .murphy{
+#pricingSection .murphy{
     margin-bottom: 100px;
 }
-#pricing h3{
+#pricingSection h3{
     font-size: 1.75rem;
     font-weight: bold;
 }
@@ -211,4 +243,19 @@ section p{
     margin: 0;
     font-size: 1rem;
 
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background: #ECECEC;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #C5C5C5;
+    border-radius: 6px;
 }
