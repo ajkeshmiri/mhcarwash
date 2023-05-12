@@ -50,7 +50,7 @@ a:visited {
     text-decoration: none;
 }
 
-.topLogo{
+.topLogo {
     border-radius: 4em;
     max-width: 150px;
 }
@@ -120,12 +120,14 @@ footer img {
     margin: 25px auto;
     display: inline-block;
     z-index: 2;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-#introSection, #pricingSection {
+#introSection,
+#pricingSection,
+#addOn {
     margin-bottom: 50px;
-    scroll-margin-top: 8em;
+    scroll-margin-top: 4em;
 }
 
 #introSection {
@@ -134,7 +136,6 @@ footer img {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px 40px;
-
 }
 
 #introSection img {
@@ -179,7 +180,8 @@ footer img {
 #pricingSection li {
     padding: 5px;
 }
-#pricingSection span{
+
+#pricingSection span {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -190,48 +192,68 @@ footer img {
     padding: 50px 20px;
 }
 
-#pricingSection .regular{
+#pricingSection .regular {
     margin-bottom: 200px;
 }
-#pricingSection .murphy{
+
+#pricingSection .plus {
     margin-bottom: 100px;
 }
-#pricingSection h3{
+
+#pricingSection h3 {
     font-size: 1.75rem;
     font-weight: bold;
 }
-#addOn{
+
+#addOn {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
 }
-section{
+
+#addOn section {
     height: 8rem;
     width: 8rem;
     rotate: 45deg;
-    display:grid;
+    display: grid;
     align-items: center;
     border-radius: 1em;
     background-color: rgb(40, 40, 42);
 }
-    
-section p{
+
+#addOn section p {
     rotate: -45deg;
     text-align: center;
     margin: 0;
     font-size: 1rem;
+}
 
+#detailSection {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.exteriorOptions ul,
+.detailShop ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.exteriorOptions li,
+.detailShop li {
+    padding-left: 0;
+    list-style-type: none;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
+
 ::-webkit-scrollbar-track {
     border-radius: 6px;
     background: #ECECEC;
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background: #C5C5C5;
     border-radius: 6px;
