@@ -239,18 +239,36 @@ footer p {
 #detailSection {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid red;
     text-align: center;
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
+    padding-bottom: 20px;
 }
 
 #detailSection ul {
     padding: 0;
 }
-
+#detailSection h3, #detailSection span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 #detailSection li {
     list-style-type: none;
 }
-
+#detailSection div{
+    border-radius: 2em;
+}
+.detailShop{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailShop div{
+    padding: 10px;
+}
+.carSize{
+    display:flex;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
