@@ -69,7 +69,8 @@ footer img {
     border-radius: 4em;
     padding: 10px 25px;
 }
-footer p{
+
+footer p {
     padding: 5px;
 }
 
@@ -239,6 +240,15 @@ footer p{
     display: flex;
     justify-content: space-evenly;
     border: 2px solid red;
+    text-align: center;
+}
+
+#detailSection ul {
+    padding: 0;
+}
+
+#detailSection li {
+    list-style-type: none;
 }
 
 ::-webkit-scrollbar {
