@@ -7,7 +7,12 @@ body {
     background: rgb(35, 37, 39, 100%);
     font-family: 'Roboto', sans-serif;
 }
-
+h1{ 
+    max-width: 12rem;
+    margin:-100px 0;
+    display: inline-block;
+    margin-bottom: .3rem;
+}
 nav {
     background: rgb(40, 40, 42);
     padding: 5px 5px;
@@ -121,7 +126,6 @@ footer p {
 
 .nav-wrapper {
     padding: 0px;
-    display: flex;
     justify-content: space-between;
     position: sticky;
     top: 5px;
@@ -140,7 +144,7 @@ footer p {
 
 #introSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px 40px;
@@ -161,7 +165,7 @@ footer p {
 #introSection div:nth-of-type(2) {
     display: grid;
     place-items: center;
-    max-width: 550px;
+    max-width: 600px;
 }
 
 #introSection ul {
@@ -234,6 +238,10 @@ footer p {
     text-align: center;
     margin: 0;
     font-size: 1rem;
+}
+#addOn section p span{
+    font-size:1.5rem;
+    font-weight: bold;
 }
 
 #detailSection {
