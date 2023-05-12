@@ -7,12 +7,14 @@ body {
     background: rgb(35, 37, 39, 100%);
     font-family: 'Roboto', sans-serif;
 }
-h1{ 
+
+h1 {
     max-width: 12rem;
-    margin:-100px 0;
+    margin: -100px 0;
     display: inline-block;
     margin-bottom: .3rem;
 }
+
 nav {
     background: rgb(40, 40, 42);
     padding: 5px 5px;
@@ -239,8 +241,9 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
-#addOn section p span{
-    font-size:1.5rem;
+
+#addOn section p span {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -256,27 +259,33 @@ footer p {
 #detailSection ul {
     padding: 0;
 }
-#detailSection h3, #detailSection span{
+
+#detailSection h3,
+#detailSection span {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 #detailSection li {
     list-style-type: none;
+    padding: 2px;
 }
-#detailSection div{
+
+#detailSection div {
     border-radius: 2em;
 }
-.detailShop{
-    display:flex;
+
+.detailShop {
     justify-content: space-between;
     align-items: center;
 }
-.detailShop div{
-    padding: 10px;
+.detailShop h3{
+    margin-bottom:.4rem;
 }
-.carSize{
-    display:flex;
+.detailShop th{
+    padding: 5px;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
 }
