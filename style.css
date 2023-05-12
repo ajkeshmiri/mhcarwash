@@ -58,8 +58,9 @@ a:visited {
 }
 
 .topLogo {
-    border-radius: 4em;
+    border-radius: 2em;
     max-width: 150px;
+    max-height: 150px;
 }
 
 main {
@@ -254,6 +255,7 @@ footer p {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 #detailSection ul {
