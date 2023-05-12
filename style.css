@@ -66,11 +66,16 @@ footer {
 
 footer img {
     max-width: 150px;
-    border-radius: 1em;
+    border-radius: 4em;
+    padding: 10px 25px;
+}
+footer p{
+    padding: 5px;
 }
 
 .bottomNavContainer {
     justify-self: end;
+    padding-right: 10px;
 }
 
 .bottomNavContainer ul {
@@ -93,6 +98,8 @@ footer img {
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgb(40, 40, 42);
+    border-radius: 2em;
 }
 
 .bottomNavContainer ul a:hover {
@@ -239,6 +246,7 @@ footer img {
     padding-left: 0;
     list-style-type: none;
 }
+
 .exteriorOptions li,
 .detailShop li {
     padding-left: 0;
