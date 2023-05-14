@@ -147,7 +147,7 @@ footer p {
 
 #introSection {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px 40px;
@@ -163,12 +163,13 @@ footer p {
     display: grid;
     place-items: center;
     text-align: center;
+    flex: 1;
 }
 
 #introSection div:nth-of-type(2) {
     display: grid;
     place-items: center;
-    max-width: 600px;
+    max-width: 550px;
 }
 
 #introSection ul {
@@ -219,6 +220,27 @@ footer p {
     font-size: 1.75rem;
     font-weight: bold;
 }
+#addOn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+section{
+    height: 8rem;
+    width: 8rem;
+    rotate: 45deg;
+    display:grid;
+    align-items: center;
+    border-radius: 1em;
+    background-color: rgb(40, 40, 42);
+}
+    
+section p {
+    rotate: -45deg;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
 
 #addOn {
     display: flex;
@@ -252,10 +274,10 @@ footer p {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background-color: rgb(40, 40, 42);
     border-radius: 2em;
-    padding-bottom: 20px;
     margin-bottom: 2em;
+    background-color: rgb(40, 40, 42);
+    height: clamp(200px, 215px, 230px);
 }
 
 #detailSection ul {
@@ -277,6 +299,12 @@ footer p {
     border-radius: 2em;
 }
 
+#exteriorOptions {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 .detailShop {
     justify-content: space-between;
     align-items: center;
@@ -287,6 +315,18 @@ footer p {
 .detailShop th{
     padding: 5px;
 }
+
+.vertical-divider {
+    height: 70%;
+    width: 2px;
+    border-radius: 9999px;
+    background: rgb(229, 231, 235);
+    align-self: center;
+}
+
+
+
+
 
 ::-webkit-scrollbar {
     width: 10px;
