@@ -331,26 +331,35 @@ section p {
 #faqSection {
     display: flex;
     flex-direction: column;
-    min-height: 360px;
+    min-height: 475px;
 }
 
-.collapsible h3{
-    transition: 0.2s ease-out;
+.collapsible {
+    transition: 0.2s ease-in;
+    border-radius: 2em;
+    max-width: 70%;
+    cursor: pointer;
     max-width: 55%;
+    margin-top: 5px;
 }
-.collapsible h3:hover {
+
+.collapsible:hover {
     background: rgb(229, 231, 235);
     color: rgb(40, 40, 42);
     transition: 0.2s ease-in;
     border-radius: 2em;
-    padding: 10px;
-    max-width: 70%;
+    padding-left: 10px;
+    max-width: 55%;
+    cursor: pointer;
+}
+
+.show {
+
 }
 
 .hide {
     display: none;
 }
-
 
 ::-webkit-scrollbar {
     width: 10px;

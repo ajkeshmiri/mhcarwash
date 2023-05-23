@@ -14,3 +14,7 @@ collapsible[2].addEventListener('click', function () {
     answer[2].classList.toggle('hide');
     answer[2].classList.toggle('show');
 })
+collapsible[3].addEventListener('click', function () {
+    answer[3].classList.toggle('hide');
+    answer[3].classList.toggle('show');
+})
