@@ -331,11 +331,26 @@ section p {
 #faqSection {
     display: flex;
     flex-direction: column;
+    min-height: 360px;
+}
+
+.collapsible h3{
+    transition: 0.2s ease-out;
+    max-width: 55%;
+}
+.collapsible h3:hover {
+    background: rgb(229, 231, 235);
+    color: rgb(40, 40, 42);
+    transition: 0.2s ease-in;
+    border-radius: 2em;
+    padding: 10px;
+    max-width: 70%;
 }
 
 .hide {
     display: none;
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;
