@@ -335,12 +335,12 @@ section p {
 }
 
 .collapsible {
+    text-align: center;
     transition: 0.2s ease-in;
     border-radius: 2em;
-    max-width: 70%;
     cursor: pointer;
-    max-width: 55%;
     margin-top: 5px;
+    
 }
 
 .collapsible:hover {
@@ -348,13 +348,11 @@ section p {
     color: rgb(40, 40, 42);
     transition: 0.2s ease-in;
     border-radius: 2em;
-    padding-left: 10px;
-    max-width: 55%;
     cursor: pointer;
 }
 
-.show {
-
+.collapsible p {
+    text-align: center;
 }
 
 .hide {
