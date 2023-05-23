@@ -331,7 +331,9 @@ section p {
 #faqSection {
     display: flex;
     flex-direction: column;
-    min-height: 475px;
+    border-radius: 2em;
+    background-color: rgb(40, 40, 42);
+    margin-bottom: 30px;
 }
 
 .collapsible {
@@ -340,7 +342,7 @@ section p {
     border-radius: 2em;
     cursor: pointer;
     margin-top: 5px;
-    
+
 }
 
 .collapsible:hover {
