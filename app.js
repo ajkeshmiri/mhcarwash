@@ -1,20 +1,20 @@
 const collapsible = document.querySelectorAll('.collapsible');
 const answer = document.querySelectorAll('#answer');
 
+function clicked(i) {
+    answer[i].classList.toggle('hide');
+    answer[i].classList.toggle('show');
+}
 
 collapsible[0].addEventListener('click', function () {
-    answer[0].classList.toggle('hide');
-    answer[0].classList.toggle('show');
+    clicked(0);
 })
 collapsible[1].addEventListener('click', function () {
-    answer[1].classList.toggle('hide');
-    answer[1].classList.toggle('show');
+    clicked(1);
 })
 collapsible[2].addEventListener('click', function () {
-    answer[2].classList.toggle('hide');
-    answer[2].classList.toggle('show');
+    clicked(2);
 })
 collapsible[3].addEventListener('click', function () {
-    answer[3].classList.toggle('hide');
-    answer[3].classList.toggle('show');
+    clicked(3);
 })
