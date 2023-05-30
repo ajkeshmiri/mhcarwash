@@ -3,7 +3,6 @@ const answer = document.querySelectorAll('#answer');
 
 function clicked(i) {
     answer[i].classList.toggle('hide');
-    answer[i].classList.toggle('show');
 }
 
 collapsible[0].addEventListener('click', function () {
