@@ -125,6 +125,8 @@ footer p {
     margin: auto;
     max-width: 80rem;
     color: rgb(229, 231, 235);
+    filter: drop-shadow(0 0 .75rem rgb(0, 0, 0) );
+    border-radius: 2em;
 }
 
 .nav-wrapper {
