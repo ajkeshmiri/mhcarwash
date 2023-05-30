@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background:rgb(24, 24, 27);
+    background: rgb(30, 30, 30);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -121,7 +121,7 @@ footer p {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: rgb(24, 24, 27);
+    background-color: rgb(30, 30, 30);
     margin: auto;
     max-width: 80rem;
     color: rgb(229, 231, 235);
@@ -151,7 +151,6 @@ footer p {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px 40px;
-    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #introSection img {
@@ -211,11 +210,11 @@ footer p {
 
 #pricingSection .regular {
     margin-bottom: 200px;
-    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #pricingSection .plus {
     margin-bottom: 10px;
+
 }
 
 #pricingSection .plusContainer {
@@ -223,8 +222,7 @@ footer p {
     padding: 0;
     padding-bottom: 5px;
     margin-bottom: 75px;
-    background-color: blue;
-    filter: drop-shadow(0 0 0.75rem rgb(68, 109, 192));
+    background-color: rgb(46, 52, 133);
     color: rgb(229, 231, 235);
 }
 
@@ -270,7 +268,6 @@ section p {
     align-items: center;
     border-radius: 1em;
     background-color: rgb(40, 40, 42);
-    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #addOn section p {
@@ -293,7 +290,6 @@ section p {
     margin-bottom: 2em;
     background-color: rgb(40, 40, 42);
     height: clamp(200px, 215px, 230px);
-    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #detailSection ul {
@@ -348,7 +344,6 @@ section p {
     border-radius: 2em;
     background-color: rgb(40, 40, 42);
     margin-bottom: 30px;
-    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 .collapsible {
@@ -374,6 +369,13 @@ section p {
 
 .hide {
     display: none;
+}
+
+.shadow {
+    box-shadow: -5px -5px 15px rgba(40, 40, 42, 0.3),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.5),
+        inset -5px -5px 15px rgba(40, 40, 42, 0.3),
+        5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 ::-webkit-scrollbar {
