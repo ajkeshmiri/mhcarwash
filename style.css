@@ -151,6 +151,7 @@ footer p {
     background-color: rgb(40, 40, 42);
     border-radius: 2em;
     padding: 30px 40px;
+    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #introSection img {
@@ -258,6 +259,7 @@ section p {
     align-items: center;
     border-radius: 1em;
     background-color: rgb(40, 40, 42);
+    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #addOn section p {
@@ -280,6 +282,7 @@ section p {
     margin-bottom: 2em;
     background-color: rgb(40, 40, 42);
     height: clamp(200px, 215px, 230px);
+    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #detailSection ul {
@@ -334,6 +337,7 @@ section p {
     border-radius: 2em;
     background-color: rgb(40, 40, 42);
     margin-bottom: 30px;
+    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 .collapsible {
