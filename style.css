@@ -224,6 +224,7 @@ footer p {
 #pricingSection .plus {
     margin-bottom: 10px;
     padding-bottom: 70px;
+    border-bottom: rgb(30, 30, 30) 2px solid;
 
 }
 
