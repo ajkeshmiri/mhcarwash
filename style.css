@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background: rgb(35, 37, 39, 100%);
+    background:rgb(24, 24, 27);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -211,10 +211,21 @@ footer p {
 
 #pricingSection .regular {
     margin-bottom: 200px;
+    filter: drop-shadow(0 0 0.75rem rgb(94, 97, 97));
 }
 
 #pricingSection .plus {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+}
+
+#pricingSection .plusContainer {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-bottom: 75px;
+    background-color: blue;
+    filter: drop-shadow(0 0 0.75rem rgb(68, 109, 192));
+    color: rgb(229, 231, 235);
 }
 
 #pricingSection h3 {
