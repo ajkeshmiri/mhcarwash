@@ -16,12 +16,12 @@
     <div class="wrapper">
         <div class="nav-wrapper">
             <div></div>
-            <nav>
+            <nav class="shadow">
                 <ul>
                     <li><a href="#introSection">Location & Hours</a></li>
-                    <li><a href="#pricingSection">Pricing</a></li>
+                    <li><a href="#pricingSection">Packages</a></li>
+                    <li><a href="#detailSection">Detail Shop</a></li>
                     <li><a href="#faqSection">FAQ</a></li>
-                    <li><a href="#contactSection">Contact Us</a></li>
                 </ul>
             </nav>
             <div></div>
@@ -160,6 +160,14 @@
             <h2>Frequently Asked Questions</h2>
             <div id="faqSection" class="shadow">
                 <div class="collapsible">
+                    <h3>Why should I come here instead of an automated car wash?</h3>
+                    <p id="answer" class="hide">You can find gentle car washes that won't damage your car but they're also not
+                        particularly effective. The more powerful spinning brushes come with a bit more risk as the dirt they pick up
+                        from other vehicles could scratch
+                        your vehicle.
+                    </p>
+                </div>
+                <div class="collapsible">
                     <h3>How often should I get my car washed and waxed?</h3>
                     <p id="answer" class="hide">We recommended to have any vehicle washed and hand waxed at least once
                         every three months, rain or shine.
@@ -175,39 +183,59 @@
                     </p>
                 </div>
                 <div class="collapsible">
-                    <h3>Third Question?</h3>
-                    <p id="answer" class="hide">Third Answer.
-                    </p>
-                </div>
-                <div class="collapsible">
-                    <h3>Fourth Question?</h3>
-                    <p id="answer" class="hide">Fourth Answer.
+                    <h3>Should I be washing the undercarriage of my car?</h3>
+                    <p id="answer" class="hide">The undercarriage of a modern vehicle is going to be pretty hardy but you should wash underneath every so often. This is
+                    more important in the winter when you're driving on salty, slushy roads. That salt can be potentially corrosive and
+                    could damage your car. Rinsing this off after a drive can protect the underside of your car from rust.
                     </p>
                 </div>
             </div>
-            <h2>Contact Us</h2>
+            <!-- <h2>Contact Us</h2>
             <div id="contactSection">
-                <h2 id="feedback" class="shadow">Leave Us Your Feedback!</h2>
+                <div id="feedback" class="shadow">
+                    <h2 class="">Leave Us Your Feedback!</h2>
+                    <form action="submit">
+                        <label for="radio1">Not Coming Back</label>
+                        <input type="radio" id="radio1" class="">
+                        <label for="radio2">Needs Attention</label>
+                        <input type="radio" id="radio" class="">
+                        <label for="radio3">Good</label>
+                        <input type="radio" id="radio" class="">
+                        <label for="radio4">Great</label>
+                        <input type="radio" id="radio" class="">
+                        <label for="radio5">Fantastic</label>
+                        <input type="radio" id="radio" class="">
+                        <input class="shadow" type="text">
+                        <button>Submit Feedback</button>
+                    </form>
+                </div>
                 <div></div>
-                <h2 id="newsletter" class="shadow">Subscribe to Our Newsletter!</h2>
-            </div>
-
-
+                <div class="shadow">
+                    <h2 id="newsletter" class="">Subscribe to Our Newsletter!</h2>
+                    <form action="submit">
+                        <label for="email">Enter your Email Address: </label>
+                        <input type="email" id="email" class="shadow">
+                        <button class='shadow' value="">Subscribe</button>
+                    </form>
+                </div>
+            </div> -->
         </main>
         <footer>
-            <div class="footer-container shadow">
+            <div class="footer-container">
                 <div><img src="logo.jpg" alt="morgan hill car wash logo" class="bottomLogo">
+                    <br>
                     <p>&copy; Morgan Hill Car Wash 2023</p>
+                    <p>Made in conjunction with ajkeshmiri.com</p>
                 </div>
-                <div></div>
-                <div class="bottomNavContainer">
-                    <ul>
+                <!-- <div></div> -->
+                <!-- <div class="bottomNavContainer">
+                     <ul>
                         <li><a href="#introSection"> location and hours</a></li>
                         <li><a href="#pricingSection"> pricing</a></li>
                         <li><a href="#faqSection"> FAQ</a></li>
                     </ul>
-                    </nav>
-                </div>
+                    </nav> -->
+                <!-- </div> -->
         </footer>
     </div>
     <script src="app.js"></script>
