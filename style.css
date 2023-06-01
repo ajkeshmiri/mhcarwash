@@ -151,7 +151,12 @@ main {
 #pricingSection {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    text-align: center; 
+    padding: 10px;
+    border-radius: 2em;
+    background-image: url(heroimg2.jpg);
+    background-size: cover;
+    margin-bottom: 45px;
 }
 
 #pricingSection ul {
@@ -258,6 +263,7 @@ section p {
     margin-bottom: 2em;
     background-color: rgb(40, 40, 42);
     height: clamp(200px, 215px, 230px);
+
 }
 
 #detailSection ul {
