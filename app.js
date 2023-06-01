@@ -1,4 +1,5 @@
 const collapsible = document.querySelectorAll('.collapsible');
+console.log('made in conjunction with ajkeshmiri.com');
 const answer = document.querySelectorAll('#answer');
 
 function clicked(i) {
