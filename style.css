@@ -383,7 +383,67 @@ section p {
     border-radius: 6px;
 }
 
+@media(max-width: 1290px) {
+    .wrapper {
+        background-color: rgb(30, 30, 30);
+        filter: none;
+    }
+
+    .nav-wrapper {
+        display: inline-block;
+        top: 3.5%;
+    }
+
+    .heroImg {
+        display: none;
+    }
+
+    #introSection div {
+        margin: 20px 0;
+    }
+
+    #introSection img {
+        margin: 30px 0;
+    }
+
+    body {
+        background-color: rgb(30, 30, 30);
+    }
+}
+
+@media(max-width: 950px) {
+
+    #introSection,
+    #pricingSection,
+    #detailShop,
+    #addOn,
+    #faqSection {
+        display: grid;
+        justify-content: center;
+    }
+
+    #pricingSection .regular,
+    #pricingSection .plus {
+        display: grid;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #pricingSection .plus {
+        display: grid;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #pricingSection .works {
+        display: grid;
+        margin: -60px 0px 0px 0px;
+    }
+}
+
 @media(max-width: 768px) {
+    .heroImg {
+        display: none;
+    }
+
     main {
         padding: 0 10px;
     }
@@ -392,6 +452,14 @@ section p {
         background-color: rgb(30, 30, 30);
         filter: none;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-wrapper {
+        display: inline-block;
+        top: 3.5%;
+        
     }
 
     body {
@@ -405,8 +473,10 @@ section p {
     #introSection,
     #pricingSection,
     #detailShop,
-    #addOn, #faqSection {
+    #addOn,
+    #faqSection {
         display: grid;
+        justify-content: center;
     }
 
     #introSection div {
@@ -415,6 +485,10 @@ section p {
 
     #introSection img {
         margin: 30px 0;
+    }
+
+    #pricingSection {
+        background-image: none;
     }
 
     #pricingSection .regular,
@@ -441,6 +515,5 @@ section p {
 @media(max-width: 400px) {
     nav li {
         font-size: .9rem;
-        ;
     }
 }
