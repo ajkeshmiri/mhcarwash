@@ -387,13 +387,14 @@ section p {
 
     html,
     body {
-        overflow-x: hidden;
         background-color: rgb(30, 30, 30);
+        
     }
 
     .wrapper {
         background-color: rgb(30, 30, 30);
         filter: none;
+        padding-left: calc(100%/20);
     }
 
     .heroImg {
@@ -478,8 +479,9 @@ section p {
     #detailSection {
         font-size: .85rem;
     }
-    #addOn{
-        display:flex;
+
+    #addOn {
+        display: flex;
         justify-content: space-evenly;
     }
 
@@ -487,13 +489,16 @@ section p {
         height: 7rem;
         width: 7rem;
     }
+
     #addOn section p {
         font-size: .8rem;
     }
+
     #addOn span {
         font-size: .4rem;
     }
-    .collapsible{
+
+    .collapsible {
         font-size: .9rem;
     }
 }
@@ -511,19 +516,21 @@ section p {
         display: grid;
         padding-bottom: 40%
     }
-        #addOn section {
-            height: 5rem;
-            width: 5rem;
-        }
-    
-        #addOn section p {
-            font-size: .8rem;
-        }
-    
-        #addOn section span {
-            font-size: .4rem;
-        }
+
+    #addOn section {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #addOn section p {
+        font-size: .8rem;
+    }
+
+    #addOn section span {
+        font-size: .4rem;
+    }
 }
+
 @media(max-width: 385px) {
     nav li {
         font-size: .8rem;
@@ -537,16 +544,17 @@ section p {
         display: grid;
         padding-bottom: 50%
     }
-        #addOn section {
-            height: 5rem;
-            width: 5rem;
-        }
-    
-        #addOn section p {
-            font-size: .8rem;
-        }
-    
-        #addOn section span {
-            font-size: .4rem;
-        }
+
+    #addOn section {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #addOn section p {
+        font-size: .8rem;
+    }
+
+    #addOn section span {
+        font-size: .4rem;
+    }
 }
